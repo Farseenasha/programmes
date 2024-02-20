@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Focus&transition</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <style>
+            input.first{
+                width: 100px;
+                transition: .35s ease-in-out;
+                transition: .35s ease-in-out;
+            }
+            input.first:focus{
+                width: 250px;
+            }
+            input.second{
+                width: 300px;
+                margin: 10px;
+            }
+            input.second:focus{
+                background-color: lightgoldenrodyellow;
+            }
+            .a{
+                filter: drop-shadow(10px 10px 10px black);
+            }
+        </style>
+    </head>
+    <body style="margin: 0px;">
+        First Name:<input class="first" type="text" name="first"><br>
+        Second Name:<input class="second" type="text" name="second">
+        <div style="border: 1px solid red;padding-left: 20px;margin-left: 20px;">sdvsDV</div>
+        <a style="color: white; background-color: red;border: 2px solid black;text-decoration: none;" href="w3school">w3school</a>
+        <a href="mailto:someone@example.com">Send email</a>
+        <button onclick="document.location='https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element'">HTML Tutorial</button>
+        <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element"><button>sdadf</button></a>
+
+    </body>
+</html>

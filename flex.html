@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>CSS flex</title>
+        <style>
+           div.first{
+            display: flex;
+            background-color: rgb(36, 159, 118);
+           } 
+           div.second{
+            background-color: rgb(239, 174, 113);
+            margin: 20px;
+            padding: 30px;
+           }
+           div.third{
+            display: flex;
+            flex-direction: column;
+            background-color: yellow;
+           }
+           div.forth{
+            background-color: rgb(239, 174, 113);
+            margin: 20px;
+            padding: 30px;
+            width: 100px;
+            text-align: center;
+           }
+           div.fifth{
+            display: flex;
+            flex-direction: column-reverse;
+            background-color: blueviolet;
+           }
+           div.sixth{
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: rgb(80, 18, 145)
+           }
+           div.seventh{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: palevioletred;
+           }
+
+           .container{
+            background-color: aquamarine;
+            display: flex;
+           }
+
+        </style>
+    </head>
+    <body>
+        <div class="first">
+            <div class="second">Be Happy</div>
+            <div class="second">Be Love</div>
+            <div class="second">Be Cool</div>
+        </div>
+        <div class="third">
+            <div class="forth">Be Happy</div>
+            <div class="forth">Be Love</div>
+            <div class="forth">Be Cool</div>
+        </div>
+        <div class="fifth">
+            <h2>This is a column-reversed flex</h2>
+            <div class="forth">Be Happy</div>
+            <div class="forth">Be Love</div>
+            <div class="forth">Be Cool</div>
+        </div>
+        <div style="background-color: rgb(80, 18, 145);"> <h2>This is row-riversed flex</h2> 
+            <div class="sixth">
+                <div class="forth">Be Happy</div>
+                <div class="forth">Be Love</div>
+                <div class="forth">Be Cool</div>
+         </div>
+    </div>
+    <div class="seventh">
+        <div class="forth">john</div>
+        <div class="forth">arun</div>
+        <div class="forth">joseph</div>
+        <div class="forth">linto</div>
+        <div class="forth">neena</div>
+        <div class="forth">zerlin</div>
+        <div class="forth">ayaash</div>
+        <div class="forth">hezal</div>
+    </div>
+    <div class="container">
+        <div class="forth">john</div>
+        <div class="forth">arun</div>
+        <div class="forth">joseph</div>
+        <div class="forth">linto</div>
+        <div class="forth">neena</div>
+        <div class="forth">zerlin</div>
+        <div class="forth">ayaash</div>
+        <div class="forth">hezal</div>
+    </div>
+    </body>
+</html>

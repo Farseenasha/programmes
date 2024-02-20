@@ -1,0 +1,43 @@
+.a:hover{
+    color: rgb(174, 221, 34);
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.first{
+    background-color: rgb(240, 196, 139); 
+    width: 100%; height: 100px;
+    /* box-shadow: 10px 10px 10px 10px rgb(186, 180, 180); */
+}
+h1.aaa{
+    padding-top: 20px; 
+    padding-left: 20px;
+    float: left;
+}
+ul{
+    list-style-type: none; 
+    padding-top: 35px;
+    float: left;
+}
+li{
+    float: left;
+    padding-left: 50px;
+    text-shadow: 5px 5px 5px rgb(210, 80, 80);
+}   
+div.second{
+    padding-top: 44px;
+}
+input.first{
+    height: 30px;
+     border-radius: 20px;
+     margin-left: 40px;
+}
+input.second{
+    height: 20px; 
+    border-radius: 20px;
+    text-shadow: 1px 1px 10px;
+}
+img.first{
+    
+    width: 1215px;
+    height:490px;
+}

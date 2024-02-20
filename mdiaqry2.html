@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        
+        .main{
+            overflow: auto;
+        }
+        .divlist{
+            float: none;
+            width: auto;
+        }
+        .list{
+            margin: 0;
+            padding: 0;
+        }
+        .menu{
+            border: 1px solid black;
+            list-style-type: none;
+            border-radius: 4px;
+            background-color: rgb(98, 65, 129);
+            margin: 4px;
+            padding: 3px;
+        }
+        .content{
+            margin-left: 4px;
+        }
+        @media screen and (min-width:480px){
+            .divlist{
+                float: left;
+                width: 200px;
+            }
+            .content{
+                margin-left: 216px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="divlist">
+            <ul class="list">
+                <li class="menu">Menu-item 1</li>
+                <li class="menu">Menu-item 2</li>
+                <li class="menu">Menu-item 3</li>
+                <li class="menu">Menu-item 4</li>
+                <li class="menu">Menu-item 5</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Resize the browser window to see the effect!</h1>
+            <p>This example shows a menu that will float to the left of the page if the viewport is 480 pixels wide or wider. 
+            If the viewport is less than 480 pixels, the menu will be on top of the content.</p>
+        </div>
+    </div>
+</body>
+
+
+</html>

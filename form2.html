@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wix Game</title>
+        <link rel="icon" type="image/wix logo" href="image/wix logo.png">
+        <script src="https://kit.fontawesome.com/ba6853247b.js" crossorigin="anonymous"></script>
+        <style>
+            div.start{
+                flex-direction: column;
+            }
+            div.main{
+                display: flex;
+                position: sticky;
+                top: 0px;
+                background-color: rgb(144, 243, 195);
+                width: 100%;
+                height: 70px;
+                z-index: 1;
+            }
+            div.mainhead{
+                background-color: palevioletred;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: white;
+                padding: 20px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 15px;
+            }
+            div.mainabout{
+                background-color: white;
+            }
+            ul.about{
+                list-style-type: none;
+                padding-top:10px;
+                display: flex;
+            }
+            li.about{
+                padding-left: 60px;
+                text-shadow: 10px 10px 10px gray;
+                font-size: 20px;
+
+            }
+
+            li.about:hover{
+                color: red;
+                cursor: pointer;
+            }
+            
+            
+            img.main{
+                position: absolute;
+                z-index: -1;
+                width: 98.65%;
+                height: 529px;
+                top: 78px;
+                
+            }
+            .click{
+                text-decoration: none;
+                background-color: brown;
+                color: white;
+                padding: 10px;
+                margin-left:520px ;
+            }
+            .click:hover{
+                color: red;
+                cursor: pointer;
+            }
+            div.games{
+                display: flex;
+                height: 480px;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                background-color: rgb(220, 76, 76);
+                margin-top: 325px;
+                
+            }
+            .games>div{
+                width: 300px;
+                height: 420px;
+                margin: 20px;
+               
+                margin-top: 30px;
+                background-color: beige;
+            }
+            div.last{
+                display: flex;
+                margin-left: 50px;
+                
+               
+           
+            }
+            input.main{
+                color:white;
+                background-color: plum;
+                border-radius: 10px;
+            }
+            .a{ color: white; 
+                background-color: rgb(33, 242, 68); 
+                border-radius:10px;
+                width: 50%;
+                height: 40px;
+                
+            }
+            .a:hover{
+                background-color: red;
+                text-decoration:underline;
+                cursor: pointer;
+            } 
+            .search{
+                background-image: url(image/search\ icon.png);
+                background-size: 20px;
+                background-repeat: no-repeat;
+                padding-left: 30px;
+                background-position: 160px 5px;
+            } 
+            .submit{
+                width: 96.5%;
+                background-color: green;
+            }
+            .submit:hover{
+                background-color: red;
+                cursor: pointer;
+            }
+           
+            input:focus{
+                background-color: lightblue;
+            }
+            textarea:focus{
+                background-color: lightblue;
+            }
+
+            .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+        </style>
+    </head>
+    <body>
+        <div class="start">
+            <div class="main">
+                <div class="mainhead"><b>Tripo Games</b></div>
+                <div>
+                    <ul class="about">
+                        <li class="about">Home</li>
+                        <li class="about">Games</li>
+                        <li class="about">
+                            <div class="dropdown">
+                                career
+                                  <div class="dropdown-content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                  </div>
+                                </div></li>
+                        <li class="about">About</li>
+                        <li class="about"><a style="text-decoration: none;color: black;"  href="#form">Contact</a></li>
+                    </ul>
+                </div>
+                <div style="margin-left: 50px;">
+                    <form>
+                       
+                        <input type="search" class="search" style="height: 30px; border-radius: 10px;margin-top: 20px;margin-left: 80px;" 
+                        placeholder="search" >
+                        <input type="submit" style="height: 20px;border-radius: 10px;margin-top:20px;" value="Go">
+                    </form>
+                </div>
+            </div>
+            <div>
+                <img class="main" src="image/wix main.jpg" alt="wix main">
+                <h1 style="text-align: center;margin-top: 90px;text-shadow: 10px 10px 10px purple;color: rgb(79, 5, 5);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 50px;">
+                <b>Made to Be Played...</b></h1>
+                <a rel="link" href="https://www.orbtronicstwo.orbtronics.co/tripo-games/" class="click">Click me</a>
+            </div>
+            <div class="games">
+                <div style="position: relative;">
+                    <img style="width: 300px;height: 420px;" src="image/wix div1.jpg" >
+                    <div style="position: absolute;bottom: 100px;">
+                    <h3 style="margin-left: 85px;">Kipon</h3>
+                    <p style="margin-left: 75px;">Casual-free</p> 
+                </div>
+                </div>
+                <div>
+                    <img style="width: 300px;height: 420px;" src="image/wix div2.webp">
+                    <!-- <h3></h3> -->
+                </div>
+                <div>
+                    <img style="width: 300px;height: 420px;" src="image/wix div3.jpg">
+                </div>
+            </div>
+            <div class="last" id="form">
+                <div style="margin-top: 30px;">
+                    <form style="padding: 105px;">
+                        <h1 style="text-shadow: 10px 10px 10px gray;">
+                            Fill Me...
+                        </h1>
+                        <h3>
+                            Click here to add your own text and edit me.
+                        </h3>
+                        <input style="height: 40px;border-radius: 10px;" type="text" name="fname" placeholder="First Name">
+                        <input style="height: 40px;border-radius: 10px;"  type="text" name="lname" placeholder="Last name"><br>
+
+                        <input style="margin-top: 10px;height: 40px;border-radius: 10px;" type="email" name="email" placeholder="Email">
+                        <input style="height: 40px;border-radius: 10px;"  type="number" name="Contact" placeholder="Contact number"><br>
+                        <textarea style="margin-top: 10px;height: 70px;border-radius: 10px;" placeholder="Leave Us a Message" cols="44"></textarea><br>
+                        <input class="submit"  type="submit" >
+                    </form>
+                </div>
+                <div style="filter: drop-shadow(5px 5px 10px rgb(53, 66, 79));padding: 135px;margin-top: 30px;height: 232px;" >
+                    <img src="image/wix icon.png" alt="wix">
+                </div>
+        
+            </div>
+        </div>
+
+        <i class="fa-solid fa-school"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-house-add-fill" viewBox="0 0 16 16">
+            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 1 1-1 0v-1h-1a.5.5 0 1 1 0-1h1v-1a.5.5 0 0 1 1 0"/>
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+            <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+          </svg>
+    </body>
+</html>

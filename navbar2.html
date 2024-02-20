@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar2</title>
+    <style>
+        .navbar{
+            background-color: rgb(39, 44, 65);
+            width:100%;
+        }
+        .list{
+            padding: 20px; 
+            font-size: larger;
+        }
+        .list:hover{
+            background-color:red;
+        }
+        
+        .dropbtn {
+  display: inline-block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: larger;
+}
+.dropbtn:hover{
+    background-color:red;
+}
+        
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.imgfloat{
+    /* float: left;
+    width: 250px; */
+    border: 1px solid rgb(190, 188, 188);
+    /* margin: 5px; */
+}
+.image{
+    width:100%;
+    height: 200px;
+}
+.imgcap{
+    padding: 15px;
+    text-align: center;
+}
+
+.imgfloat:hover{
+    border: 1px solid rgb(61, 60, 60);
+}
+* {
+  box-sizing: border-box;
+}
+.responsive{
+    padding: 0 6px;
+  float: left;
+  width: 24%;
+  overflow: auto;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+    </style>
+</head>
+<body>
+
+        <div class="navbar">
+            <ul style="list-style-type: none;display: flex;color:antiquewhite;">
+                <li class="list">Home</li>
+                <li class="list">News</li>
+                <li class="dropdown">
+                    <a href="" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </li>
+            </ul>
+        </div>
+        <div class="responsive">
+        <div class="imgfloat" >
+            <img src="nature.jpg" height="600" width="400" class="image">
+            <div class="imgcap">
+                Add a description of the image here
+            </div>   
+        </div>
+        </div>
+        <div class="responsive">
+        <div class="imgfloat">
+            <img src="image/wix div2.webp"  class="image">
+            <div class="imgcap">
+                Add a description of the image here
+            </div>
+        </div>
+        </div>
+        <div class="responsive">
+        <div class="imgfloat">
+            <img src="image/form1.jpg"  class="image">
+            <div class="imgcap">
+                Add a description of the image here
+            </div>
+        </div>
+        </div>
+        <div class="responsive">
+        <div class="imgfloat">
+            <img src="image/wix div1.jpg"  class="image">
+            <div class="imgcap">
+                Add a description of the image here
+            </div>
+        </div>
+        </div>
+</body>
+</html>
