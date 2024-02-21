@@ -1,0 +1,39 @@
+.main{
+    /* background-color: rgb(104, 105, 110); */
+    /* position: relative; */
+}
+.sub1{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    text-align: center;
+    font-size: medium;
+    /* opacity: .6; */
+}
+.sub1 div{
+    width: 200px;
+    padding-top: 10px;
+}
+.sub2 div{
+    width: 200px;
+    padding-top: 10px;
+}
+.sub2{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    text-align: center;
+    font-size: medium;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.image:hover {
+    cursor: pointer;
+    background-color: rgb(184, 176, 192);
+    
+}

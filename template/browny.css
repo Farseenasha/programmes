@@ -187,9 +187,13 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.division h5{
+.division h6{
     font-size: 18px;
     color: #43485c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.division p{
+    color: #636a82;
 
 }
 
