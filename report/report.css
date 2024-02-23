@@ -1,0 +1,228 @@
+
+.black{
+    background-color: black;
+    width: 800px;
+    height: 500px;
+    margin-left: 2px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+   
+}
+.profile{
+  
+    position: relative;
+    width: 170px;
+    height: 200px;
+    margin-left: 50px;
+    padding-top: 90px;
+
+    
+}
+
+.jeremy{
+    background-color: rgb(72, 59, 215);
+    width: 150px;
+    height: 205px;
+    border-radius: 10px;
+    z-index: 2 !important;
+    position: relative;
+    
+}
+.jeremy img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+.jeremy p{
+    color: rgb(220, 210, 210);
+    font-size: 8px;
+    margin-left: 20px;
+}
+.jeremy h4{
+    color: rgb(220, 210, 210);
+    margin-left: 20px;
+}
+.about{
+    background-color: rgb(34, 34, 101);
+    color: white;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    padding-top: 20px;
+    top: 270px;
+    /* z-index: 1; */
+}
+.about p{
+    font-size: small;
+    margin-left: 20px; 
+}
+.line1{
+    display: flex;
+    width: 750px;
+    margin-left: 252px;
+    height: 235;
+    position: absolute;
+    top: 0px;
+}
+.item1{
+    position: relative;
+    width: 200px;
+    height: 200px;    
+}
+.item2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.orange{
+    background-color: rgb(240, 127, 14);
+    width: 130px;
+    height: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+.work{
+    top: 115px;
+    background-color: rgb(34, 34, 101);
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+}.work p{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.blue{
+    background-color: rgb(136, 197, 218);
+    width: 130px;
+    height: 50px; 
+    margin-top: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+.play{
+    top: 115px;
+    background-color: rgb(34, 34, 101);
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+}
+.play p{
+    color: white;
+    margin-left: 10px;
+}
+.item3{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.pink{
+    background-color: palevioletred;
+    width: 130px;
+    height: 50px; 
+    margin-top: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+.study{
+    top: 115px;
+    background-color: rgb(34, 34, 101);
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+}
+.study p{
+    color: white;
+    margin-left: 10px;
+}
+.line2{
+    display: flex;
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 155px;
+
+}
+.item4{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.green{
+    background-color: greenyellow;
+    width: 130px;
+    height: 50px; 
+    margin-top: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+.exercise{
+    top: 115px;
+    background-color: rgb(34, 34, 101);
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+}
+.exercise p{
+    color: white;
+    margin-left: 10px;
+}
+.item5{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.darkblue{
+    background-color: rgb(38, 38, 170);
+    width: 130px;
+    height: 50px; 
+    margin-top: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+.social{
+    top: 115px;
+    background-color: rgb(34, 34, 101);
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+}
+.social p{
+    color: white;
+    margin-left: 10px;
+}
+.item6{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.yellow{
+    background-color: yellow;
+    width: 130px;
+    height: 50px; 
+    margin-top: 90px;
+    border-radius: 10px;
+    position: absolute;
+}
+.self{
+    top: 115px;
+    background-color: rgb(34, 34, 101);
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10px;
+}
+.self p{
+    color: white;
+    margin-left: 10px;
+}

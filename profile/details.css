@@ -30,5 +30,5 @@ img{
 }
 .image:hover {
     cursor: pointer;
-    background-color: rgb(184, 176, 192);
+    background-color: gray;
 }
