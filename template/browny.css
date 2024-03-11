@@ -165,6 +165,19 @@ body{
     width: 390px;
     margin-left: 180px;
 }
+.icon svg{
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+}
+.icon svg:hover{
+    cursor: pointer;
+}
 .iconbar{
     position: absolute;
 }
@@ -185,7 +198,8 @@ body{
 }
 .division{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin-left: 30px;
 }
 .division h6{
     font-size: 18px;
@@ -194,7 +208,48 @@ body{
 }
 .division p{
     color: #636a82;
+}
+.timeline{
+    display: flex;
+}
+.timeline svg{
+    color: #d92cf9;
+}
+.timelinecntnt{
+    display: flex;
+    margin-left: 30px;
+}
+.timelinecntnt h6{
+    font-size: 16px;
+    color: #43485c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.timelinecntnt p{
+    color: #999fb3;
+}
+.experience{
+    width: 100%;
+    background: #f9fbfd;
+}
+.verticaltimeline{
+    display: flex;
+    margin-top: 50px;
+}
+.verticalright{
+    text-align: right;
+    margin-left: 150px;
+}
+.verticalhr{
 
 }
+.verticalleft{
+    text-align: left;
+    margin-right: 150px;
+    
+}
+
+
+
 
 
